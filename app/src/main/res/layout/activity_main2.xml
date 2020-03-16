@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp">
+
+        <EditText
+            android:background="@color/colorAccent"
+            android:inputType="text"
+            android:hint="ENTER NEW PERSON"
+            android:id="@+id/et_task"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fla_task"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="190dp"
+            android:layout_marginBottom="284dp"
+            android:src="@drawable/ic_person_add" />
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
